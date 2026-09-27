@@ -94,11 +94,20 @@ Or open an [issue](../../issues) if you would rather.
 
 ### If something breaks
 
-Tell me what you were doing and roughly when, and whether you were on Windows
-or Linux. Press **Esc** and screenshot the pause panel — the build number is in
-the bottom right, which tells me exactly which version you had.
+**Press F8** (or pause with **Esc** and choose **Save a Report**). The game
+saves one zip with a screenshot, the build and your computer, where you were,
+what you had been doing, your saves and the game's logs, and opens the folder
+it is in. Attach the zip to your thread with a line about what happened.
+Nothing is sent anywhere — the zip stays on your machine until you post it.
 
-Saves and logs live in:
+If the game ever closes by itself, the next time you start it the main menu
+says **Fusebreak closed unexpectedly** and can open the log folder. Please
+attach the newest log.
+
+The game keeps a log of the levels you play (`playlog.jsonl`, beside your
+saves) so a report can show what happened. It stays on your machine.
+
+Saves, logs and reports live in:
 
 ```
 Windows:  %APPDATA%\Godot\app_userdata\Fusebreak\
